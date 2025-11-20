@@ -1,0 +1,14 @@
+{
+  "name": "module1",
+  "version": "2.0.0",
+  "main": "Script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^24.10.0"
+  }
+}
