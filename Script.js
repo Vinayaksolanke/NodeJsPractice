@@ -1,0 +1,5 @@
+const fs = require('fs')
+const content =fs.readFileSync('output.txt','utf-8')
+console.log(content)
+fs.writeFileSync('New.txt',content)
+fs.appendFileSync('New.txt','\n \nThis is new Line')

@@ -1,0 +1,11 @@
+1. Built in  module means it created by node.js we need to use it 
+const built = require.('node:fs')// how its use
+
+2. custom module => means make developer for do any specific task 
+its look like 
+cosnt custom = require('./fs')
+
+3. third party module aslo called it external module
+const ext = require('fs')
+ 
+This is new Line
