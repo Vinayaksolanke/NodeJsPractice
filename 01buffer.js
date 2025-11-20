@@ -44,3 +44,9 @@ console.log('Copied buffer:', buf6.toString()); // converting back to string
 // checking if two buffers are equal
 const isEqual = buf3.equals(buf6);
 console.log('Buffers are equal:', isEqual); // true or false
+
+// writing to a buffer
+const buf7 = Buffer.alloc(15);
+const bytesWritten = buf7.write('Writing to buffer');
+console.log('Bytes written:', bytesWritten);
+console.log('Buffer after writing:', buf7.toString()); // converting back to string
